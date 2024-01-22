@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@null"
+    app:cardBackgroundColor="?attr/colorPrimary"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:strokeColor="@color/gray"
+    app:strokeWidth="2dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/title_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/something_about_plan"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="16dp" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/desc_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="5"
+        android:text="some description text as notes text on cards on main page, it should be little bit be longer so i am just writing anything some description text as notes text on cards on main page, it should be little bit be longer so i am just writing anything some description text as notes text on cards on main page, it should be little bit be longer so i am just writing anything some description text as notes text on cards on main page, it should be little bit be longer so i am just writing anything some description text as notes text on cards on main page, it should be little bit be longer so i am just writing anything some description text as notes text on cards on main page, it should be little bit be longer so i am just writing anything some description text as notes text on cards on main page, it should be little bit be longer so i am just writing anything" />
+
+
+
+
+</LinearLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

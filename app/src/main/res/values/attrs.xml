@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ToolBarView" >
+        <attr name="toolbar_title" format="string" />
+        <attr name="toolbar_elevation" format="dimension" />
+        <attr name="toolbar_back_btn_visibility" format="boolean" />
+
+    </declare-styleable>
+
+
+</resources>
