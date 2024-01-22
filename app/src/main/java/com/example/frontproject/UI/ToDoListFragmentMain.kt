@@ -10,6 +10,7 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.frontproject.UI.adapters.ToDoAdapter
 import com.example.frontproject.databinding.FragmentToDoListMainBinding
